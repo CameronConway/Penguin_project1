@@ -24,6 +24,9 @@ ggsave('figs/1_flipper_bodymass_regression.png')
 penguins_female <- subset(penguins, sex == 'female')
 write_tsv(penguins_female, 'results/1_penguin_female_only.txt')
 
+penguins_male <- subset(penguins, sex == 'male')
+write_tsv(penguins_female, 'results/1_penguin_male_only.txt')
+
 
 #comment
 
